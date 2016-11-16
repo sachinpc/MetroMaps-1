@@ -8,8 +8,17 @@ class StringProcessor():
 
 
     def encode(self, raw_string):
+        
         if isinstance(raw_string, str):
-            return unicode(raw_string.decode(self.in_encoding).encode(self.encoding),self.encoding)
+            #return unicode( raw_string.decode(self.in_encoding).encode(self.encoding), self.encoding )
+            try:
+                s = raw_string.decode(self.in_encoding)
+            except UnicodeDecodeError:
+                print("StringProcessor(): ERROR endcoding string %s"%(raw_string))
+                return unicode("")
+            else:
+                return unicode( s.encode(self.encoding), self.encoding )
+
         if isinstance(raw_string, unicode):
             return raw_string
 

@@ -67,6 +67,7 @@ class WhiteListCounter():
         for filename in filenames:
             full_path = os.path.join(self.input_directory, filename)
             self.run_filename(full_path)
+            print("Full_path = %s\n"%( full_path ))
 
     def _get_representative_tokens(self):
         # reverse token_to_id with the counts from global counts
