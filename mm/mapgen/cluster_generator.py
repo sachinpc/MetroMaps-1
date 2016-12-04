@@ -9,6 +9,7 @@ import os
 import os.path
 import snap
 from itertools import combinations
+import plot_graph
 
 
 class ClusterGenerator(object):
@@ -31,7 +32,9 @@ class ClusterGenerator(object):
             logging.debug(str(self))
 
 
-
+    def draw_graph( self, graph , filename ):
+        plot_graph.plot_map( graph )
+    """
     def draw_graph(self,graph,file_name):
         #initialize Figure
         if self.graphing_on:
@@ -60,9 +63,7 @@ class ClusterGenerator(object):
             del fig
         else:
             raise Error("Configuration does not allow graphing")
-
-    
-
+    """
     
 
     # def ccg(self, timeslice_dict):
@@ -84,9 +85,8 @@ class ClusterGenerator(object):
         id_to_token = {}
         for doc in doc_data:
             sorted_tokens = sorted([x for x in doc["tokens"] 
-                if (x["token_doc_count"] >= self.min_freq_in_doc and x["tfidf"] >= self.tfidf_accept)], key=lambda x :x['tfidf'])
+            if (x["token_doc_count"] >= self.min_freq_in_doc and x["tfidf"] >= self.tfidf_accept)], key=lambda x :x['tfidf'])
             tokens_we_want = sorted_tokens[-self.max_tokens_per_doc:]
-
             token_ids = []
             for token in tokens_we_want:
                 token_ids += [token['id']]
