@@ -1,0 +1,40 @@
+global: &GLOBALS
+    doc_metadata: domains/wikicatjava3/data/doc_meta.json
+
+
+input_helper:
+    <<: *GLOBALS
+    mode: on
+    name: whitelistcounter
+    whitelist: domains/wiki3/data/whitelist_SeniorSoftwareEngineerInfraEntertainmentAndMediaIndustry_netflix.txt
+    input_directory: domains/wikicatjava3/data/rawtext
+
+slicing:
+    <<: *GLOBALS
+    mode: on
+    num_timeslices: 65
+    
+
+clustering:
+    <<: *GLOBALS
+    mode: on
+    graphing: True
+    similarity_merge: .95 # <intersection> / <small size> above this limit merges
+    dilution_merge: .1
+    
+
+mapgen:
+    <<: *GLOBALS
+    mode: on
+    chosen_lines: domains/wikicatjava3/out/final/wikicatjava3.mm
+    chosen_lines_json: domains/wikicatjava3/out/final/wikicatjava3.json
+
+vizbuilder:
+    <<: *GLOBALS
+    mode: on
+    name: clusterdescription
+    input_lines_json: domains/wikicatjava3/out/final/wikicatjava3.json
+    final_map_viz_json: domains/wikicatjava3/out/final/wikicatjava3_viz.json
+    producehtml: on
+    website_output_dir: domains/wikicatjava3/out
+    webpage_name: WIKICATJAVA3.html
