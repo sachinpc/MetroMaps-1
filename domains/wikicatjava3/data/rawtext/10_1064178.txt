@@ -1,0 +1,1 @@
+dataparallelc dataparallelc c with parallel extensions by hatcher and quinn of the university of new hampshire dataparallelc was based on an early version of c and runs on the intel ipsc and ncube

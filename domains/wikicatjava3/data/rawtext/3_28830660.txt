@@ -1,0 +1,1 @@
+intel parallel building blocks intel parallel building blocks pbb was a collection of three programming solutions designed for multithreaded parallel computing pbb consisted of cilk plus threading building blocks tbb and intel array building blocks arbb

@@ -1,0 +1,1 @@
+kuzya kuzya is a free and open source crossplatform ide it is developed in c using qt as the gui toolkit kuzya is not tied to one concrete language of programming or to the concrete compiler it is being developed for linux windows and mac os x

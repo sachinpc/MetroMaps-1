@@ -1,0 +1,1 @@
+giws software giws is a wrapper generator intended to simplify calling java from c or c by automatically generating the necessary jni code
