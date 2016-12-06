@@ -6,7 +6,7 @@ input_helper:
     <<: *GLOBALS
     mode: on
     name: whitelistcounter
-    whitelist: domains/wiki3/data/whitelist_SeniorSoftwareEngineerInfraEntertainmentAndMediaIndustry_netflix.txt
+    whitelist: domains/wikicatjava3/data/whitelist_SeniorSoftwareEngineerInfraEntertainmentAndMediaIndustry_netflix.txt
     input_directory: domains/wikicatjava3/data/rawtext
 
 slicing:
