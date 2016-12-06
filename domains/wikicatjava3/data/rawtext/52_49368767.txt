@@ -1,0 +1,1 @@
+apache kylin apache kylin is an open source distributed analytics engine designed to provide a sql interface and multidimensional analysis olap on hadoop supporting extremely large datasets it was originally developed by ebay and is now a project of the apache software foundation

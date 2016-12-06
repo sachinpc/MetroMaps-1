@@ -1,0 +1,1 @@
+jboss tools jboss tools is a set of eclipse plugins and features designed to help jboss and javaee developers develop applications it is an umbrella project for the jboss developed plugins that will make it into jboss developer studio modules jboss tools includes the following modules

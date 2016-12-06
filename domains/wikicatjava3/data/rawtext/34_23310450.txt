@@ -1,0 +1,1 @@
+ultimate ultimate is a c crossplatform development framework which aims to reduce the code complexity of typical desktop applications by extensively exploiting c features hello world the following example creates a u application with hello world button

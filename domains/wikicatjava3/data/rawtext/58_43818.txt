@@ -1,0 +1,1 @@
+java xml the java programming language xml apis developed by sun microsystems consist of the following separate computerprogramming apis only the java api for xml processing jaxp is a required api in enterprise java beans specification  a number of different opensource software packages implement these apis

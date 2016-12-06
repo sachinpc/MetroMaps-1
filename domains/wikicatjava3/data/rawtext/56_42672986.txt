@@ -1,0 +1,1 @@
+apache samza apache samza is an opensource nearrealtime asynchronous computational framework for stream processing developed by the apache software foundation in scala and java history apache samza has been developed in conjunction with apache kafka both were originally developed by linkedin

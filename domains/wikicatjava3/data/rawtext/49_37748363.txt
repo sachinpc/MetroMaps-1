@@ -1,0 +1,1 @@
+brig c libraries brig is a collection of crossplatform c  header only libraries that offers interaction with many databases and usability of the geometric data

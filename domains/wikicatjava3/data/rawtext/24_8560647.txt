@@ -1,0 +1,1 @@
+sentry  sentry  is a commercial software program for transparent disk encryption diskencryption for pc and pda it has two compatible versions one for desktop windows xp and one for windows mobile  which allows using the same encrypted volume on both platforms

@@ -1,0 +1,1 @@
+not exactly c not exactly c or nxc is a highlevel programming language for the lego mindstorms nxt designed by john hansen in  nxc which is short for not exactly c is based on next byte codes an assembly language nxc has a syntax like c the ide for nxc is the bricx command center the nxc compiler is available under the mozilla public license a sample code is as shown below
