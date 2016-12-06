@@ -1,5 +1,5 @@
-import plotly.plotly as py
-from plotly.graph_objs import *
+#import plotly.plotly as py
+#from plotly.graph_objs import *
 import snap
 import networkx as nx
 
